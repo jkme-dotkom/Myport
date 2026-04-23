@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Neon Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="furina.jpg" class="profile-pic" />
+      <h1>John Kenneth Barranco</h1>
+      <p class="tagline">A student :></p>
+    </header>
+
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="projects">
+      <h2><b>Projects</b></h2>
+
+      <div class="card">
+        <h3>Project 1</h3>
+        <p>
+          <strong>Problem:</strong>There was no online presence to showcase my
+          work and skills.
+        </p>
+        <p>
+          <strong>Solution:</strong>I built a responsive portfolio website using
+          HTML, CSS, and JavaScript to display projects, skills, and contact
+          information in a clean and accessible way.
+        </p>
+        <p><strong>Tech:</strong> HTML, CSS, JS</p>
+      </div>
+
+      <div class="card">
+        <h3><b>Project 2</b></h3>
+        <p>
+          <strong>Problem:</strong>Users had no structured way to send messages
+          or inquiries securely.
+        </p>
+        <p>
+          <strong>Solution:</strong>I created a contact form with JavaScript
+          validation to ensure proper input before submission, improving user
+          experience and preventing empty requests.
+        </p>
+        <p><strong>Tech:</strong> JS </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2><b>skills</b></h2>
+      <ul>
+        <li>HTML / CSS / JS</li>
+        <li>Networking</li>
+        <li>IOT</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>📩 Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" /><br />
+        <input type="email" id="email" placeholder="Your Email" /><br />
+        <textarea id="message" placeholder="Your Message"></textarea><br />
+        <button id="sendBtn">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2026 Your Name</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

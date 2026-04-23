@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0a0f1c;
+  color: #e0f7ff;
+}
+
+
+header {
+  position: relative;
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(90deg, #00f0ff, #00ff9f);
+  color: black;
+  box-shadow: 0 0 20px #00f0ff;
+}
+
+.tagline {
+  font-size: 18px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #111;
+  padding: 10px;
+}
+
+nav a {
+  color: #00f0ff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00ff9f;
+  text-shadow: 0 0 10px #00ff9f;
+}
+
+
+section {
+  padding: 40px;
+}
+
+
+.card {
+  background: #111;
+  border: 1px solid #00f0ff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00f0ff;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 25px #00ff9f;
+}
+
+
+input, textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  background: #0a0f1c;
+  border: 1px solid #00f0ff;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  background: #00f0ff;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #00ff9f;
+  box-shadow: 0 0 15px #00ff9f;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+}
+
+
+.profile-pic {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: 3px solid #00f0ff;
+  box-shadow: 
+    0 0 10px #00f0ff,
+    0 0 20px #0026ff;
+
+  transition: 0.3s;
+}
+
+
+.profile-pic:hover {
+  transform: scale(1.1);
+  box-shadow: 
+    0 0 20px #0f1bbe,
+    0 0 40px #05e61b;
+}
